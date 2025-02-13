@@ -1,0 +1,31 @@
+*** This readme file is for Lab-4 submission in python-3.9 of Data Structures class ***
+
+-The goal of the lab was to use external codes and analyze performance of quick sort and merge sort algorithms
+
+-This submission has following files/folders in a zip folder named msherekar_lab4:
+	1) Readme file
+
+	2) Resources Folder
+	- This folder has two folders named input and output to store input & output .txt files. My code stores the output files in the input folder instead of output folder.
+	- The input folder has three files named random50.txt, ascending50.txt and descending50.txt
+	- Also, the input folder has 15 files generated as a result of my running the code.
+	- I generated random 50 integers and used them for sorting lab.
+
+	3) Module folder
+	- This folder has all the .py files
+	
+	4) Analysis file
+	- This file has description of various aspects like data structure design, efficiency & lessons learnt for future projects, performance	 of sorts and various graphs.
+
+-NOTE: The input to be given on the command line is just input folder as in:
+	msherekar_lab4 % python3 -m msherekar_lab4 resources/input 
+-Known Bugs in the project:
+-Very minimal error checking 
+- Output files go into input folder i.e where the input files were stored.
+-The comparison and swap numbers are not accurate
+
+-Author of this readme and project is Mukul Sherekar and submitted on 04/19/2022 from Rockville, MD.
+
+-I used Lab-3 architecture as a template for this lab i.e used the same __init__, .main and lab files
+-The source of website is mentioned in each .py file
+-I used realpython.com geekforgeeks.com for technical knowledge about python coding
