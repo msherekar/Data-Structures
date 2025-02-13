@@ -1,0 +1,11 @@
+The huffman tree in pre-order is: 
+ ('MLKJVWEDFNRTPGZQXYUBICHSOA', 413),  ('MLKJVWEDFN', 169),  ('MLKJVW', 80),  ('ML', 39),  ('M', 19), None, None,  ('L', 20), None, None,  ('KJVW', 41),  ('KJV', 20),  ('K', 10), None, None,  ('JV', 10),  ('J', 5), None, None,  ('V', 5), None, None,  ('W', 21), None, None,  ('EDFN', 89),  ('E', 42), None, None,  ('DFN', 47),  ('DF', 23),  ('D', 11), None, None,  ('F', 12), None, None,  ('N', 24), None, None,  ('RTPGZQXYUBICHSOA', 244),  ('RTPGZQXYU', 106),  ('RT', 50),  ('R', 25), None, None,  ('T', 25), None, None,  ('PGZQXYU', 56),  ('PG', 27),  ('P', 13), None, None,  ('G', 14), None, None,  ('ZQXYU', 29),  ('ZQXY', 14),  ('ZQX', 6),  ('Z', 3), None, None,  ('QX', 3),  ('Q', 1), None, None,  ('X', 2), None, None,  ('Y', 8), None, None,  ('U', 15), None, None,  ('BICHSOA', 138),  ('BICH', 66),  ('BI', 32),  ('B', 16), None, None,  ('I', 16), None, None,  ('CH', 34),  ('C', 17), None, None,  ('H', 17), None, None,  ('SOA', 72),  ('S', 35), None, None,  ('OA', 37),  ('O', 18), None, None,  ('A', 19), None, None
+
+The huff codes for given frequency table are: 
+{'M': '0000', 'L': '0001', 'K': '00100', 'J': '001010', 'V': '001011', 'W': '0011', 'E': '010', 'D': '01100', 'F': '01101', 'N': '0111', 'R': '1000', 'T': '1001', 'P': '10100', 'G': '10101', 'Z': '1011000', 'Q': '10110010', 'X': '10110011', 'Y': '101101', 'U': '10111', 'B': '11000', 'I': '11001', 'C': '11010', 'H': '11011', 'S': '1110', 'O': '11110', 'A': '11111'}
+
+
+The compressed version of given data is:
+
+The decompressed version of given data is :
+KENIYEPGKTLLMMMACPEGE

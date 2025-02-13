@@ -1,0 +1,31 @@
+*** This readme file is for Lab-1 submission of Data Structures class ***
+
+-The goal of the lab is to convert pre-fix strings to post-fix strings by executing a package on command line
+
+-This submission has following files/folders in a zip folder named msherekar_lab1:
+	1) Readme file
+
+	2) Resources Folder
+	- This folder has two folders named input and output to store input & output .txt files
+
+	3) Module folder
+	- This folder has all the .py files
+	
+	4) Analysis file
+	- This file has description of various aspects like data structure design, efficiency & lessons learnt for future projects
+
+-Summary of the project: 
+User can execute on command by entering names of input and output files. Files have to be in same directory as package.
+ __main__ will execute process_files method. 
+ This method will then execute lab1.py which invokes convert method. 
+ Convert method uses stack class from stack.py to do the basic conversion.
+
+-Known Bugs in the project:
+1) There will be no output files if given prefix strings are invalid. I didn't had time to include proper error messages to notify the user
+
+2) If the given strings are valid but the conversion fails, this package fails to notify the user about failed conversion. 
+This happens because I didn't had time to properly handle the errors.
+
+3) Includes various input files for error checking like non english alphabets, strings not prefixes etc
+
+-Author of this readme and project is Mukul Sherekar and submitted on 03/02/2022 from Bhopal, India.

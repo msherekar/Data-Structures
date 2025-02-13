@@ -1,0 +1,28 @@
+*** This readme file is for Lab-3 submission in python-3.9 of Data Structures class ***
+
+-The goal of the lab was to create a Huffman Tree using a frequency table. 
+-Then, using the Huffman Tree code/compress and decode the given data.
+
+-This submission has following files/folders in a zip folder named msherekar_lab3:
+	1) Readme file
+
+	2) Resources Folder
+	- This folder has two folders named input and output to store input & output .txt files
+
+	3) Module folder
+	- This folder has all the .py files
+	
+	4) Analysis file
+	- This file has description of various aspects like data structure design, efficiency & lessons learnt for future projects
+
+
+-Known Bugs in the project:
+-Very minimal error checking 
+- Code won't accept integers as in to code
+
+
+-Author of this readme and project is Mukul Sherekar and submitted on 04/19/2022 from Rockville, MD.
+
+-I used Lab-2 architecture as a template for this lab i.e used the same __init__, .main and lab files
+-I used zybook pseudocode and design ideas 
+-I used realpython.com geekforgeeks.com for technical knowledge about python coding

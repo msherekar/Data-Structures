@@ -1,0 +1,25 @@
+*** This readme file is for Lab-2 submission of Data Structures class ***
+
+-The goal of the lab is to convert pre-fix strings to post-fix strings using recursion by executing a package on command line
+
+-This submission has following files/folders in a zip folder named msherekar_lab1:
+	1) Readme file
+
+	2) Resources Folder
+	- This folder has two folders named input and output to store input & output .txt files
+
+	3) Module folder
+	- This folder has all the .py files
+	
+	4) Analysis file
+	- This file has description of various aspects like data structure design, efficiency & lessons learnt for future projects
+
+-Summary of the project: 
+User can execute on command by entering names of input and output files. Files have to be in same directory as package. __main__ will execute process_files method. This method will then execute lab2.py which invokes convert method. Convert method uses recursionto do the basic conversion.
+
+-Known Bugs in the project:
+-None is returned for something which I couldnt figure out. It does not affect the result at all.
+
+-Author of this readme and project is Mukul Sherekar and submitted on 03/29/2022 from Rockville, MD.
+
+-I used Lab-1 architecture as a template for this lab i.e used the same __init__, .main and lab files
